@@ -20,16 +20,16 @@ When the new API receives a request, it will fetch the latest data from Redis. I
 
 <b>Answer</b> : This is the performance testing strategy I would recommend to the project manager:
 
-1. <b>Establish Performance Goals & Benchmarks</b>
+1. <b>Establish Performance Goals & Benchmarks</b><br/>
 Clearly define key performance indicators such as concurrent users, response time, throughput, and latency. This ensures that we have measurable targets for system performance.
 
-2. <b>Create a Realistic Test Environment</b>
+2. <b>Create a Realistic Test Environment</b><br/>
 Set up a testing environment that mirrors production as closely as possible. This helps detect performance issues early and ensures that new changes won’t degrade system stability before release.
 
-3. <b>Develop Test Scenarios & Workflows</b>
+3. <b>Develop Test Scenarios & Workflows</b><br/>
 Identify critical user interactions and system operations that need to be tested. Design test cases that reflect real-world usage to evaluate system behavior under expected conditions.
 
-4. <b>Choose Suitable Testing Tools & CI/CD Integration</b>
+4. <b>Choose Suitable Testing Tools & CI/CD Integration</b><br/>
 Select performance testing tools based on project needs and team expertise. Where possible, integrate performance testing into the CI/CD pipeline to detect issues automatically during development.
 
 5. <b>Execute Load & Stress Tests</b>
