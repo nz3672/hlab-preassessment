@@ -1,0 +1,2 @@
+## 1. `useCallback` ใช้ทําอะไร
+`useCallback` used for memorizing a function, preventing it from being recreated every rendering. Except it will only re-created when the dependencies changes. It could be used to optimize performances, since it reduces the amount of times the function will be recreated.
